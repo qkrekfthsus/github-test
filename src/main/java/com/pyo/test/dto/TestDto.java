@@ -16,6 +16,14 @@ public class TestDto {
 		this.studentName = studentName;
 		this.score = score;
 	}
+	
+	
+
+	public TestDto(String studentName, int score) {
+		super();
+		this.studentName = studentName;
+		this.score = score;
+	}
 
 	public String getTestName() {
 		return testName;
